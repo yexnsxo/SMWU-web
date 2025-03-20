@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2311194 이연서</title>
+</head>
+<body>
+  <header>
+    <h1>register.html</h1>
+    <h2>동아리 가입 양식</h2>
+  </header>
+  <div>
+    <form>
+      <p><label for="name">이름</label>
+        <input type="text" id="name">
+      </p>
+      <p>
+        <label for="major">학부/학과</label>
+        <input list="major">
+          <datalist id="major">
+          <option value="소프트웨어학부">소프트웨어학부</option>
+          <option value="미디어학부">미디어학부</option>
+          <option value="중어중문학과">중어중문학과</option>
+          <option value="통계학과">통계학과</option>
+          </datalist>
+      </p>
+      <p>
+        <label for="grade">학년</label>
+        <input type="radio" id="1" value="1학년" name="grade">
+        <label for="1">1학년</label>
+        <input type="radio" id="2" value="2학년" name="grade">
+        <label for="2">2학년</label>
+        <input type="radio" id="3" value="3학년" name="grade">
+        <label for="3">3학년</label>
+        <input type="radio" id="4" value="4학년" name="grade">
+        <label for="4">4학년</label>
+      </p>
+      <p>
+        <label for="snum">학번</label>
+        <input type="text" id="snum">
+      </p>
+      <p>
+        <label for="email">이메일</label>
+        <input type="text" id="email" placeholder="id@host">
+      </p>
+      <p>
+        <label for="pnum">전화번호</label>
+        <input type="text" id="pnum" placeholder="010-1234-5678">
+      </p>
+      <p>
+        <label for="purpose">가입동기</label>
+        <textarea id="purpose"></textarea>
+      </p>
+      <input type="submit" value="가입하기">
+      <input type="reset" value="취소하기">
+    </form>
+  </div>
+</body>
+</html>
