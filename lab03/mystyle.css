@@ -1,0 +1,108 @@
+#top_header {
+  background-color: cornflowerblue;
+  display: flex;
+  color: white;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 1%;
+}
+
+#title {
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#navi {
+  display: inline-flex;
+  list-style: none;
+  gap: 20px;
+  padding-top: 15%;
+}
+
+#navi .nav-link {
+  color: white;
+}
+
+#navi .dropdown-toggle::after {
+  display: none;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+  padding: 1%;
+  margin-right: 1.5%;
+  margin-left: 2%;
+}
+
+#btn {
+  margin-top: 10px;
+}
+
+#ad {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5%;
+  margin-right: 2%;
+}
+
+#school {
+  margin-top: 10px;
+  border: cornflowerblue solid 1px;
+  border-radius: 10px;
+  background-color: beige;
+  padding: 10px;
+}
+
+#shop {
+  margin-top: 10px;
+  border: cornflowerblue solid 1px;
+  border-radius: 10px;
+  background-color: beige;
+  padding: 10px;
+}
+
+#post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card1 {
+  border: black solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 2%;
+}
+
+.card1_ex {
+  display: flex;
+}
+
+p > b {
+  color: cornflowerblue;
+}
+
+#main {
+  display: flex;
+}
+
+#bottom_menu {
+  display: flex;
+  list-style: none;
+  background-color: cornflowerblue;
+  gap: 20%;
+  padding: 1%;
+  color: white;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
